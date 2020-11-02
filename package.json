@@ -12,13 +12,13 @@
     "@quasar/extras": "^1.0.0",
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
     "quasar": "^1.0.0",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",
-    "node-sass": "^5.0.0",
-    "sass-loader": "^10.0.4"
+    "sass-loader": "^10.0.5"
   },
   "browserslist": [
     "last 10 Chrome versions",

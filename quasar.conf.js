@@ -54,7 +54,12 @@ module.exports = function (/* ctx */) {
       'QItemSection',
       'QItemLabel',
       'QCheckbox',
-      'QBtn'
+      'QBtn',
+      'QDialog',
+      'QCard',
+      'QCardSection',
+      'QCardActions',
+      'QSpace'
     ],
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
@@ -105,7 +110,10 @@ module.exports = function (/* ctx */) {
       // you can manually specify Quasar components/directives to be available everywhere:
       //
       // components: [],
-      // directives: [],
+      directives: [
+        'Ripple',
+        'ClosePopup'
+      ],
 
       // Quasar plugins
       plugins: [
