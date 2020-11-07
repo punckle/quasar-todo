@@ -59,7 +59,12 @@ module.exports = function (/* ctx */) {
       'QCard',
       'QCardSection',
       'QCardActions',
-      'QSpace'
+      'QSpace',
+      'QInput',
+      'QDate',
+      'QPopupProxy',
+      'QTime',
+      'QForm'
     ],
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build

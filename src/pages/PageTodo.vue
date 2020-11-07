@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-md">
-    <q-list bordered separator>
+    <q-list v-if="Object.keys(tasks).length" bordered separator>
 
       <task
         v-for="(task, key) in tasks"
@@ -23,7 +23,7 @@
     </div>
 
     <q-dialog v-model="showAddTask">
-      <addTask></addTask>
+      <addTask @close="showAddTask = false"></addTask>
     </q-dialog>
 
   </q-page>
@@ -32,8 +32,8 @@
 <script>
 import task from 'components/Tasks/Task'
 import addTask from 'components/Tasks/Modals/AddTask'
-
 import { mapGetters } from 'vuex'
+
 export default {
   data() {
     return {
