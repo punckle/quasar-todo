@@ -64,7 +64,8 @@ module.exports = function (/* ctx */) {
       'QDate',
       'QPopupProxy',
       'QTime',
-      'QForm'
+      'QForm',
+      'QBanner'
     ],
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
